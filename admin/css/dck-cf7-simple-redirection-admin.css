@@ -1,0 +1,32 @@
+#dck-cf7-sr-panel table,
+#dck-cf7-sr-panel input[type=text],
+#dck-cf7-sr-panel input[type=number],
+#dck-cf7-sr-panel select {
+    max-width: 100%;
+    width: 100%;
+}
+
+#dck-cf7-sr-panel table {
+    border-collapse: collapse;
+}
+
+#dck-cf7-sr-panel table tr td {
+    padding-bottom: 15px;
+    width: 320px;
+}
+
+#dck-cf7-sr-panel tr th {
+    text-align: left;
+    width: 168px;
+}
+
+#dck-cf7-sr-panel tr th label {
+    font-weight: 500;
+}
+
+#dck-cf7-sr-panel tr td .warning{
+    color: slategray;
+    display: inline-block;
+    font-size: 12px;
+    font-style: italic;
+}
